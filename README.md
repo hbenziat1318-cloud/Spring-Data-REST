@@ -56,11 +56,11 @@ public class Compte {
 ```
 # Accès immédiat aux URLs principales :
   http://localhost:8082/api/comptes - Liste des comptes
-  <br><br>
+  <br>
   http://localhost:8082/api/clients - Liste des clients  
-  <br><br>
+  <br>
   http://localhost:8082/api/comptes/search/byType?t=EPARGNE - Comptes 
-  <br><br>
+  <br>
   http://localhost:8082/h2-console - Base de données (JDBC: jdbc:h2:mem:banque, User: sa)
 
 ## Démonstration

@@ -17,11 +17,25 @@ Microservice de gestion de comptes bancaires développé avec **Spring Boot 3.2.
 ms-banque/
 ├── src/
 │   └── main/
-│       ├── java/ma/rest/spring/
-│       │   ├── entities/ (Client, Compte, TypeCompte, Projections)
-│       │   └── repositories/ (ClientRepository, CompteRepository)
-│       └── resources/application.properties
-└── pom.xml
+│       ├── java/
+│       │   └── ma/
+│       │       └── rest/
+│       │           └── spring/
+│       │               ├── MsBanqueApplication.java
+│       │               ├── entities/
+│       │               │   ├── Client.java
+│       │               │   ├── Compte.java
+│       │               │   ├── TypeCompte.java
+│       │               │   ├── CompteProjection1.java
+│       │               │   ├── CompteProjection2.java
+│       │               │   └── ClientProjection.java
+│       │               └── repositories/
+│       │                   ├── ClientRepository.java
+│       │                   └── CompteRepository.java
+│       └── resources/
+│           └── application.properties
+├── pom.xml
+└── README.md
 ```
 
 ### ARCHITECTURE DU MICROSERVICE BANCAIRE - SPRING DATA REST

@@ -114,7 +114,7 @@ spring.jpa.hibernate.ddl-auto=create-drop
 -  **Recherches Personnalisées** (par type de compte)
 -  **Relations Automatiques** entre entités
 -  **Projections** pour vues personnalisées
--  **Pagination & Tri** natifs
+-  **Pagination & Tri** 
 -  **Interface H2** pour gestion base de données
 
 
